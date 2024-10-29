@@ -10,6 +10,8 @@ const websiteRoute=express.Router()
 websiteRoute.use("/collections",collectionRoutes)
 websiteRoute.use("/auth",websiteAuthRoute)
 
+websiteRoute.use("/auth",websiteAuthRoute)
+
 
 
 module.exports={websiteRoute}
